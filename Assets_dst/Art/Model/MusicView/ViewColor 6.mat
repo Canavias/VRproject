@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ViewColor 6
+  m_Shader: {fileID: 4800000, guid: e4ea5b3fa5d12f946af7e302419203d9, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: e358a816a2a51dd47bd477a2d01481cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Cutoff: 0.5
+    - _Intensity: 0
+    - __dirty: 0
+    m_Colors:
+    - _HeightColor: {r: 5.340313, g: 0.02598187, b: 5.340313, a: 1}
+    - _LowColor: {r: 0, g: 1.756322, b: 2.996078, a: 0}
+    - _NoiseOffset: {r: 50, g: 10, b: 0, a: 0}
+    - _NoiseSpeed: {r: -0.1, g: 0.5, b: 1, a: 0}
+    - _TillingOffset: {r: 1, g: 0.4, b: 0.4, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

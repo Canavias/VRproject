@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 7bfc5fcd84fe1d54c831177af643cf40
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _CattailBlades: {fileID: 2800000, guid: 56294e4e9cd1e8a439dc4034808415aa, type: 3}
+  - _CattailBlades_Alpha: {fileID: 2800000, guid: 67b6ccb2bc37a1747b455f2658bb25d9, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

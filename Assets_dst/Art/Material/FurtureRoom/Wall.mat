@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wall
+  m_Shader: {fileID: 4800000, guid: 439baedce1c04ed4f839858a8952a9fb, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _3DCollective_TexturePack01_Mask_0039:
+        m_Texture: {fileID: 2800000, guid: babd209fe2d65f54680039fa726c538d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Base:
+        m_Texture: {fileID: 2800000, guid: babd209fe2d65f54680039fa726c538d, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: 2d53729aee7043c48a8a78f02a82789d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HDR_Studio05:
+        m_Texture: {fileID: 8900000, guid: 3c3ab7209db960b4397b72902da353f9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseCaustic03:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 75f8e77216ca6704da8de70129250de1, type: 3}
+        m_Scale: {x: 4, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTest:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness:
+        m_Texture: {fileID: 2800000, guid: babd209fe2d65f54680039fa726c538d, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _SmoothNoise:
+        m_Texture: {fileID: 2800000, guid: babd209fe2d65f54680039fa726c538d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _see_blue:
+        m_Texture: {fileID: 2800000, guid: be3993697169f694eb37572ccbe55eed, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ASEOutlineWidth: 1
+    - _AlsoIntensity: 1.16
+    - _BaseIntensity: 6.7
+    - _BaseMax: 0.8
+    - _BaseMin: -0.2
+    - _BasePwer: 0.25
+    - _CubeLevel: 10
+    - _CullOff: 2
+    - _EmissIntensity: 0.33
+    - _Float1: 0.53
+    - _Metal: 0.2
+    - _NormalIntensity: 0.43
+    - _ReflectIntensity: 0.4
+    - _ReflectIntenstiy: 1
+    - _Rough: 0.772
+    - _Rough1: 1
+    - _RoughMax: 0.55
+    - _RoughMin: 0
+    - _Smooth: 0.3
+    - _Smoothness: 0.3
+    - __dirty: 0
+    m_Colors:
+    - _ASEOutlineColor: {r: 1, g: 1, b: 1, a: 0}
+    - _AlboColor: {r: 0.5005932, g: 0.7963161, b: 0.899371, a: 1}
+    - _BaseColor: {r: 0.6431707, g: 0.70235854, b: 0.754717, a: 0}
+    - _BlueColor: {r: 0.047058783, g: 0.30588233, b: 0.39607844, a: 0.5882353}
+    - _EmissionColor: {r: 0.48943862, g: 0.64579093, b: 0.7106918, a: 0}
+    - _MetalOffset: {r: 1, g: 1, b: 1, a: 0}
+    - _MetalTelling: {r: 1, g: 1, b: 1, a: 0}
+    - _PlasticColor: {r: 0.4743878, g: 0.6772634, b: 0.84276724, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

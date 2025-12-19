@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Wood-Teacher
+  m_Shader: {fileID: 4800000, guid: 5797ae91a8d7667498164bd66be24430, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CubeMap:
+        m_Texture: {fileID: 8900000, guid: 2d53729aee7043c48a8a78f02a82789d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CubeMap2:
+        m_Texture: {fileID: 8900000, guid: 2d53729aee7043c48a8a78f02a82789d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseCaustic02:
+        m_Texture: {fileID: 2800000, guid: 87aa55e4c3c29db4bbb4ad9a788d57c8, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _WoodTex:
+        m_Texture: {fileID: 2800000, guid: 1f42ae1391c78754f913b59215149b9c, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BaseIntensity: 1
+    - _CubeLevel: 13
+    - _CubeLevel2: 11.11
+    - _EmissIntensity: 1
+    - _Metallic: 0
+    - _NoiseIntensity: 0.1
+    - _ReflectIntensity: 0.05
+    - _ReflectIntensity2: 0.1
+    - _Smoothness: 0
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 0.899371, g: 0.75699437, b: 0.67594236, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

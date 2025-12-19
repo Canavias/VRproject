@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 6d371d0ccb95c3749912cc07324c463b
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _PlaneColor: {fileID: 2800000, guid: 70b339c716753d84e89e77b51cc220bd, type: 3}
+  - _Noise2: {fileID: 2800000, guid: 87aa55e4c3c29db4bbb4ad9a788d57c8, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

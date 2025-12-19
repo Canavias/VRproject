@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Transmation
+  m_Shader: {fileID: 4800000, guid: 85d4d4d2f8681b34cae891949735a0b4, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FlowBoise2:
+        m_Texture: {fileID: 2800000, guid: a8f9f17da57160445be1b7179937d401, type: 3}
+        m_Scale: {x: 0, y: 1.5}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: 9189a673eb50ec94786a47a286287a49, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowNoise:
+        m_Texture: {fileID: 2800000, guid: 1dbe0e16737522f4f8a8ab5a145e88b3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Distance: 0.4
+    - _DistanceMax: 1
+    - _DistanceMin: 0.3
+    - _FlowMapIntensity: 1.5
+    - _FlowNoiseBase: 0.1
+    - _FlowNoisePower: 1.5
+    - _NoisePower: 3.5
+    - _NoiseTimeScale: 1
+    - _TimeScale2: 1.08
+    - __dirty: 1
+    m_Colors:
+    - _BaseColor: {r: 0.25759786, g: 0.43396217, b: 0.13714832, a: 0}
+    - _FlowNoise2: {r: -0.1, g: 0.2, b: 0, a: 0}
+    - _NoiseColor: {r: 1.2012578, g: 5.3403134, b: 2.9960785, a: 0}
+    - _NoiseTilling: {r: 30, g: 0.8, b: -0.1, a: 0.5}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

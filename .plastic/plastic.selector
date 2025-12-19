@@ -1,0 +1,4 @@
+repository "FutureVRLive@tj_wechat_os_qy0_pch4_vfy7d0spyc7okauu@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"

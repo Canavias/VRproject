@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: bc14d02e409da294abe4683276abbf4f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TreeDeco_normal: {fileID: 2800000, guid: 4122b325c5f2bcc45b7d8253f9d20267, type: 3}
+  - _TreeDeco_basecolor: {fileID: 2800000, guid: dfaabc8177bdfc347948c8951fcf4503, type: 3}
+  - _TreeDeco_metallic: {fileID: 2800000, guid: 5d613c58652fe7a4cba39b6c68ed7572, type: 3}
+  - _TreeDeco_roughness: {fileID: 2800000, guid: 9d5403ef5eba2e7409a1527ab81f5aa7, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

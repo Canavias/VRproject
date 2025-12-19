@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StoneSide
+  m_Shader: {fileID: 4800000, guid: 82ee927ca715a9743b7cd8c63228ec32, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: a305e49aff4b51c498393d7cc5e59234, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 87aa55e4c3c29db4bbb4ad9a788d57c8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness:
+        m_Texture: {fileID: 2800000, guid: ca178fefc61360443b6d38f9ac6a4e34, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaRange: -0.067
+    - _BaseColorIntensity: 2.2
+    - _EmissIntensity: 0.5
+    - _Metailic: 0.1
+    - _Noise2Intensity: 0.005
+    - _Noise2Range: 1
+    - _NoiseRange: 1
+    - _Scale: 1
+    - _Smoothness: 0.2
+    - _VertexNormalOffsetIntensity: 0.05
+    - __dirty: 1
+    m_Colors:
+    - _BaseColorRGB: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Noise2Position: {r: 0.5, g: 0, b: 0, a: 0}
+    - _NoiseOffset: {r: 0, g: 0, b: 0.2, a: 0}
+    - _NoiseTilling: {r: 2, g: 2, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

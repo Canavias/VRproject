@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Plane
+  m_Shader: {fileID: 4800000, guid: 6d371d0ccb95c3749912cc07324c463b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 87aa55e4c3c29db4bbb4ad9a788d57c8, type: 3}
+        m_Scale: {x: 1.1, y: 0.8}
+        m_Offset: {x: 0, y: 0}
+    - _Noise1:
+        m_Texture: {fileID: 2800000, guid: 7e57ec7eaa0e7164096f3ab848f35b65, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise2:
+        m_Texture: {fileID: 2800000, guid: a8f9f17da57160445be1b7179937d401, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseCaustic02:
+        m_Texture: {fileID: 2800000, guid: 87aa55e4c3c29db4bbb4ad9a788d57c8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PlaneColor:
+        m_Texture: {fileID: 2800000, guid: 70b339c716753d84e89e77b51cc220bd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 87aa55e4c3c29db4bbb4ad9a788d57c8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 0.5
+    - _DepthDistance: 5.5
+    - _DepthPower: 4
+    - _FlowEdgePower: 0.6
+    - _FlowEdgeScale: 2
+    - _FlowEdgeSpeed: 0.2
+    - _FlowNoiseDepth: 2
+    - _FlowNoiseSpeed: 1
+    - _FlowPower: 6
+    - _FlowScale: 2
+    - _FlowSpeed: 0.35
+    - _NoiseMax: 0.8
+    - _NoiseMin: 0.3
+    - _NoiseSpeed: 0.3
+    - _Size: 1
+    - _VertexIntensity: 0.0008
+    - __dirty: 0
+    m_Colors:
+    - _DepthColor: {r: 2.9734128, g: 0.631149, b: 0.91427994, a: 0}
+    - _EdgeColor: {r: 1.7932544, g: 1.2904286, b: 0.769746, a: 0}
+    - _FlowColor: {r: 0.9433962, g: 0.636705, b: 0.21804914, a: 0}
+    - _FlowDir: {r: -0.6, g: 0.25, b: 0, a: 0}
+    - _FlowEdgeColor: {r: 1, g: 1, b: 1, a: 0}
+    - _FlowEdgeDir: {r: -0.5, g: 1, b: 0, a: 0}
+    - _FlowEdgeStrength: {r: 1, g: 1, b: 0, a: 0}
+    - _FlowNoiseOffset: {r: 2, g: 2, b: -0.5, a: 1}
+    - _FlowNoiseTilling: {r: 1, g: 1, b: 0, a: 0}
+    - _FlowStrength: {r: 2, g: 1, b: 0, a: 0}
+    - _NoiseOffset: {r: 0.2, g: 0.5, b: 0, a: 0}
+    - _NoiseTilling: {r: 0.3, g: 0.31, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

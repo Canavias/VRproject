@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: e907f6e9684c8b6459b0af4c330db658
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Fabric_Line1_normal4k: {fileID: 2800000, guid: 98b760e082e251c4196bdf7fdf8fe94e, type: 3}
+  - _Fabric_Line1_FallOff4k: {fileID: 2800000, guid: 6a0e00aa3f9eec74ab23201efece9d98, type: 3}
+  - _Fabric_Line1_diffuse4k: {fileID: 2800000, guid: 18dfd43608695254a841035d4820b40c, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

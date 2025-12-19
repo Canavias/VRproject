@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Plasitc
+  m_Shader: {fileID: 4800000, guid: bc14d02e409da294abe4683276abbf4f, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _TreeDeco_basecolor:
+        m_Texture: {fileID: 2800000, guid: 8b707f3d48139004d9a6597d54638b36, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TreeDeco_metallic:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TreeDeco_normal:
+        m_Texture: {fileID: 2800000, guid: 426d86db1a751d84a8ace3e7a9db3592, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TreeDeco_roughness:
+        m_Texture: {fileID: 2800000, guid: 33901df62fe4d69439319f1a82f313e7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BaseIntensity: 2.5
+    - _MetalIntensity: 0.4
+    - _NormalIntensity: 0
+    - _SmoothnessIntensity: 0.611
+    - __dirty: 0
+    m_Colors:
+    - _EmissionColor: {r: 0.043253675, g: 0.32025936, b: 0.509434, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

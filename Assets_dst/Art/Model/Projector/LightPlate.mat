@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LightPlate
+  m_Shader: {fileID: 4800000, guid: 08a150bb2bd3ede488872c687fa39246, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MapTexture:
+        m_Texture: {fileID: 2800000, guid: 6213329f015af4944ac91ee055df3e06, type: 3}
+        m_Scale: {x: 0.02, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CullMode: 0
+    - _EmissionIntensity: 1.4
+    - _EndExpand: 2.5
+    - _Opeacity: 1
+    - _RimMax: 1
+    - _RimMin: 0.2
+    - _SmoMax: 0.2
+    - _SmoMin: 0
+    - _TopOffset: 0
+    - _TopPower: 1.4
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 0.15014273, g: 0.32173458, b: 2.7347438, a: 1}
+    - _TillingSpeed: {r: -0.05, g: 0.1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

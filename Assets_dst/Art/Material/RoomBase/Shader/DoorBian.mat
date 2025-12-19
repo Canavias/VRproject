@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DoorBian
+  m_Shader: {fileID: 4800000, guid: 8320ac44a9a6e4e4896ee8b3fa514bfa, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Chocofur_Free_Table_04_diff_01:
+        m_Texture: {fileID: 2800000, guid: 8a0127747d3504c4e98f86eb0a770f5f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DoorTex:
+        m_Texture: {fileID: 2800000, guid: 8a0127747d3504c4e98f86eb0a770f5f, type: 3}
+        m_Scale: {x: 0.5, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 87aa55e4c3c29db4bbb4ad9a788d57c8, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BaseTexIntensity: 3.24
+    - _NoiseIntensity: 0.01
+    - __dirty: 0
+    m_Colors:
+    - _DoorColor: {r: 0.28301886, g: 0.08631144, b: 0.029369853, a: 0.23921569}
+    - _DoorColor1: {r: 0.6037736, g: 0.48882484, b: 0.4537794, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

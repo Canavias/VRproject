@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 1100fd3f5e1bdc941af433bc59ae770c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _SmoothNoise: {fileID: 2800000, guid: 1ea63dff1f8ab994db00dbc933577b9e, type: 3}
+  - _NoiseCaustic03: {fileID: 2800000, guid: 7e57ec7eaa0e7164096f3ab848f35b65, type: 3}
+  - _CubeMap: {fileID: 8900000, guid: 3c3ab7209db960b4397b72902da353f9, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
