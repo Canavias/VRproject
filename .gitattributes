@@ -1,0 +1,70 @@
+# 自动检测文本文件并在检出时转换为系统格式
+* text=auto
+
+# 确保这些文件始终使用 LF 换行符
+*.cs text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.xml text eol=lf
+
+# 二进制文件
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.flv binary
+*.fla binary
+*.swf binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+*.psd binary
+*.ai binary
+*.pdf binary
+*.unity binary
+*.unitypackage binary
+*.mat binary
+*.prefab binary
+*.asset binary
+*.fbx binary
+*.obj binary
+*.blend binary
+*.max binary
+*.mb binary
+*.ma binary
+*.dae binary
+*.3ds binary
+*.dxf binary
+*.skp binary
+*.gltf binary
+*.glb binary
+*.stl binary
+
+# Unity 特定文件
+*.meta text eol=lf
+*.unity3d binary
+*.anim binary
+*.controller binary
+*.mask binary
+*.physicMaterial binary
+*.physicsMaterial2D binary
+*.playable binary
+*.preset binary
+*.shadervariants binary
+
+# .gitattributes 文件自身
+.gitattributes text eol=lf
